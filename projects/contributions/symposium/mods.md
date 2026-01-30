@@ -64,3 +64,14 @@ Mods are interoperable - anyone can write one and they compose without coordinat
 - Configuration file - Probably a TOML or JSON file that specifies which mods to enable
 - Mod chaining - Specifying the order in which mods should process messages
 - Per-mod settings - Each mod may have its own configuration options
+
+
+--
+## Key insights
+- The power for these mods is that they compose together.
+    Editor → Sparkle → Ferris → Agent
+        - In the chain abover.
+            - Sparkle add collaboration context to your prompt.
+            - Ferris adds rust crate inspection tool.
+        - Both enrichment reaches the Agent.
+        - - The Agent now has both the collaboration patterns and the ability to inspect crate's source code.
