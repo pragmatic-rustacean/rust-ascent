@@ -2,7 +2,6 @@ Exploring mods
 
 . At the core, mods are middleware that sit between your code editor and your AI agent. They intercept and can modify the conversation flowing in both directions.
 . ```mods are like middlewares that sits between your editor and the AI agent observing the conversation and enriching it. They help with enriching the prompt before it reaches the agent and the response before it reaches the editor```.
-
 ![sample mod illustration](image.png)
 
 ## what can mods do for me?
@@ -39,14 +38,26 @@ Mods are interoperable - anyone can write one and they compose without coordinat
 ## Mods available in symposium.
 1. Sparkle: The AI collaboration framework
     - sparkle appears to be a collaboration framework that learns your working patterns and help coordinate AI-Agent's behaviour.
+    . Tracks how you work with the AI over time
+    . Adapts to your preferred workflows
+    . Provides collaboration context to the agent
+    . Helps manage the relationship between you and the AI
+
 - - Best for: Establishing patters for collaborations and meta-level coordination.
 
 2. Ferris: Rust Crate Source Inspection
     - Provides tools for the agent to fetch and inspect Rust crate source code
+    . Checks out crate code from crates.io into a temporary directory
+    . Can search within the crate for specific strings
+    . Highlights example code in the crate's examples/ directory
+    . Gives the agent access to real API implementations instead of guessing
 - - Best for: When the agent needs to understand how to use a specific Rust crate's API correctly
 
 3. Cargo - Compressed Cargo Command Output
     - Provides tools for running cargo commands and delivering the output to the agent in a compressed/optimized format
+    . Likely includes cargo build and cargo test
+    . Probably filters or summarizes cargo's verbose output
+    . Makes build/test results more digestible for the AI
 - - Best for: Letting the agent run builds and tests without getting overwhelmed by verbose output
 
 ## How to Enable Mods
