@@ -224,7 +224,7 @@ I've been:
 This repository is my public commitment to that journey.
 
 **Connect with me:**
-[Your GitHub, Twitter, LinkedIn, or however you want to connect]
+[[Github](https://github.com/pragmatic-rustacean), [Twitter](https://x.com/chiefrustacean), [LinkedIn](https://linkedin.com/in/james2m), [bsky](https://bsky.app/profile/geniusinrust.bsky.social), [mastodon](https://mastodon.social/@geniusinrust)]
 
 ---
 
@@ -242,7 +242,6 @@ This repository is my public commitment to that journey.
 
 **Thanks to:**
 - The Rust community for being welcoming
-- Niko Matsakis and the Symposium project for the invitation to contribute
 - Everyone who learns in public and inspired me to do the same
 - Future me for having the courage to start
 
