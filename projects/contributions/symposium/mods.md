@@ -69,7 +69,9 @@ Mods are interoperable - anyone can write one and they compose without coordinat
 --
 ## Key insights
 - The power for these mods is that they compose together.
+    
     Editor → Sparkle → Ferris → Agent
+        
         - In the chain abover.
             - Sparkle add collaboration context to your prompt.
             - Ferris adds rust crate inspection tool.
