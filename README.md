@@ -32,7 +32,7 @@ To become a great, influential Rust developer by:
 
 ## 🗺️ The Roadmap
 
-### Phase 1: Foundation (Months 1-6) ← *YOU ARE HERE*
+### Phase 1: Foundation (Months 1-6)
 **Goal:** Solid Rust fundamentals and first contributions
 
 - [x] Commit to daily Rust practice
