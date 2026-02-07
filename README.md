@@ -136,9 +136,9 @@ Curated list of resources I found invaluable.
 ## 📊 Progress Tracker
 
 ### Contributions
-- **PRs Opened:** 0
-- **PRs Merged:** 0
-- **Issues Created:** 0
+- **PRs Opened:** 1
+- **PRs Merged:** 1
+- **Issues Created:** 1
 - **Code Reviews:** 0
 
 ### Learning
